@@ -5,12 +5,12 @@ const Tracker = () => {
   const [latitude, setLatitude] = useState();
   const [longitude, setLongitude] = useState();
 
-  fetch("http://api.open-notify.org/iss-now.json")
+  fetch("https://api.wheretheiss.at/v1/satellites/25544")
     .then((res) => res.json())
-    .then((details) => {
-      setTimeStamp(details.timestamp);
-      setLatitude(details.iss_position.latitude);
-      setLongitude(details.iss_position.longitude);
+    .then((data) => {
+      setTimeStamp(data.timestamp);
+      setLatitude(data.latitude);
+      setLongitude(data.longitude);
     });
 
   return (
