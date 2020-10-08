@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ISS-Tracker/static/css/main.649ddea2.chunk.css",
+    "main.js": "/ISS-Tracker/static/js/main.8ff8743d.chunk.js",
+    "main.js.map": "/ISS-Tracker/static/js/main.8ff8743d.chunk.js.map",
+    "runtime-main.js": "/ISS-Tracker/static/js/runtime-main.e1c8c02c.js",
+    "runtime-main.js.map": "/ISS-Tracker/static/js/runtime-main.e1c8c02c.js.map",
+    "static/js/2.652df06e.chunk.js": "/ISS-Tracker/static/js/2.652df06e.chunk.js",
+    "static/js/2.652df06e.chunk.js.map": "/ISS-Tracker/static/js/2.652df06e.chunk.js.map",
+    "index.html": "/ISS-Tracker/index.html",
+    "precache-manifest.0bc50a121cd87aaec29790b23d88a5b8.js": "/ISS-Tracker/precache-manifest.0bc50a121cd87aaec29790b23d88a5b8.js",
+    "service-worker.js": "/ISS-Tracker/service-worker.js",
+    "static/css/main.649ddea2.chunk.css.map": "/ISS-Tracker/static/css/main.649ddea2.chunk.css.map",
+    "static/js/2.652df06e.chunk.js.LICENSE.txt": "/ISS-Tracker/static/js/2.652df06e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ISS-Tracker/static/media/spacepic2.470b64b0.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1c8c02c.js",
+    "static/js/2.652df06e.chunk.js",
+    "static/css/main.649ddea2.chunk.css",
+    "static/js/main.8ff8743d.chunk.js"
+  ]
+}
