@@ -1,16 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Tracker = () => {
   const [timeStamp, setTimeStamp] = useState();
   const [latitude, setLatitude] = useState();
   const [longitude, setLongitude] = useState();
 
-  fetch("https://api.wheretheiss.at/v1/satellites/25544")
+  //Fetch data from api
+  fetch("http://api.open-notify.org/iss-now.json")
     .then((res) => res.json())
     .then((data) => {
       setTimeStamp(data.timestamp);
-      setLatitude(data.latitude);
-      setLongitude(data.longitude);
+      setLatitude(data.iss_position.latitude);
+      setLongitude(data.iss_position.longitude);
     });
 
   return (
